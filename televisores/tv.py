@@ -4,6 +4,14 @@ class TV:
     @classmethod
     def nuevoTV(cls):
         TV.numTV += 1
+    
+    @classmethod
+    def setNumTV(cls, p):
+        cls.setNumTV = p
+    
+    @classmethod
+    def getNumTV(cls, p):
+        return numTV
 
     def __init__(self, marca, estado):
         self._marca = marca
