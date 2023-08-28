@@ -10,7 +10,7 @@ class TV:
         cls.setNumTV = p
 
     @classmethod
-    def getNumTV(cls, p):
+    def getNumTV(cls):
         return numTV
 
     def __init__(self, marca, estado):
