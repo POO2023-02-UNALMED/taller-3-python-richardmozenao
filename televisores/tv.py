@@ -11,7 +11,7 @@ class TV:
 
     @classmethod
     def getNumTV(cls):
-        return numTV
+        return cls.numTV
 
     def __init__(self, marca, estado):
         self._marca = marca
