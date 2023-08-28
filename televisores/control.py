@@ -29,3 +29,9 @@ class Control:
 
     def setVolumen(self, p):
         self._tv.setVolumen(p)
+
+    def getTv(self):
+        return self._tv
+
+    def setTv(self, tv):
+        self.enlazar(tv)
