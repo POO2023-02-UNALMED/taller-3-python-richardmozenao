@@ -7,7 +7,7 @@ class TV:
 
     @classmethod
     def setNumTV(cls, p):
-        cls.NumTV = p
+        cls.numTV = p
 
     @classmethod
     def getNumTV(cls):
