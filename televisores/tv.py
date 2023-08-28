@@ -3,7 +3,7 @@ class TV:
 
     @classmethod
     def nuevoTV(cls):
-        TV.numTV += 1
+        cls.numTV += 1
 
     @classmethod
     def setNumTV(cls, p):
